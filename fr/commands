@@ -1,8 +1,7 @@
 ############################################################
 #						Liveboxtv
 ############################################################
-*allume la laveboxe*==say "J\'allume la télé." && wget -qO /dev/null "${liveboxtv_url}116${liveboxtv_url_mode}"
-*éteindre la laveboxe*==say "J\'éteind la télé." && wget -qO /dev/null "${liveboxtv_url}116${liveboxtv_url_mode}"
+*allume la laveboxe*|*éteindre la laveboxe*==say "J\'allume la télé." && wget -qO /dev/null "${liveboxtv_url}116${liveboxtv_url_mode}"
 *coupe le son de la laveboxe*==say "Je coupe le son de la télé!" && wget -qO /dev/null "${liveboxtv_url}113${liveboxtv_url_mode}"
 *remets le son de la laveboxe*==say "Je remet le son de la télé!" && wget -qO /dev/null "${liveboxtv_url}113${liveboxtv_url_mode}"
 *baisse le son de la laveboxe*==say "Je baisse le son de la télé!" && wget -qO /dev/null "${liveboxtv_url}114${liveboxtv_url_mode}"
@@ -65,7 +64,7 @@
 *BFM TV*==say "Je  zappe sur BFM TV." && wget -qO /dev/null "${liveboxtv_url}513${liveboxtv_url_mode}" && wget -qO /dev/null "${liveboxtv_url}517${liveboxtv_url_mode}" && say "C'est fait"
 *I-Télé*==say "Je  zappe sur i télé." && wget -qO /dev/null "${liveboxtv_url}513${liveboxtv_url_mode}" && wget -qO /dev/null "${liveboxtv_url}518${liveboxtv_url_mode}" && say "C'est fait"
 *D17*==say "Je  zappe sur D17." && wget -qO /dev/null "${liveboxtv_url}513${liveboxtv_url_mode}" && wget -qO /dev/null "${liveboxtv_url}519${liveboxtv_url_mode}" && say "C'est fait" && 
-*Gulli*			==say "Je  zappe sur Gulli." && wget -qO /dev/null "${liveboxtv_url}513${liveboxtv_url_mode}" && wget -qO /dev/null "${liveboxtv_url}520${liveboxtv_url_mode}"&& say "C'est fait"
+*Gulli*==say "Je  zappe sur Gulli." && wget -qO /dev/null "${liveboxtv_url}513${liveboxtv_url_mode}" && wget -qO /dev/null "${liveboxtv_url}520${liveboxtv_url_mode}"&& say "C'est fait"
 *France O*==say "Je  zappe sur France O." && wget -qO /dev/null "${liveboxtv_url}513${liveboxtv_url_mode}" && wget -qO /dev/null "${liveboxtv_url}521${liveboxtv_url_mode}"&& say "C'est fait"
 *HD1*==say "Je  zappe sur HD1." && wget -qO /dev/null "${liveboxtv_url}514${liveboxtv_url_mode}" && wget -qO /dev/null "${liveboxtv_url}512${liveboxtv_url_mode}"&& say "C'est fait" && 
 *L équipe*==say "Je  zappe sur l équipe 21." && wget -qO /dev/null "${liveboxtv_url}514${liveboxtv_url_mode}" && wget -qO /dev/null "${liveboxtv_url}513${liveboxtv_url_mode}"&& say "C'est fait" 
