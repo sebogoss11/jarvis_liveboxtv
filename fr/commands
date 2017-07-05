@@ -1,7 +1,7 @@
 ############################################################
 #						Liveboxtv
 ############################################################
-*allume la laveboxe*|*éteindre la laveboxe*==say "J\'allume la télé." && wget -qO /dev/null "${liveboxtv_url}116${liveboxtv_url_mode}"
+*allume la laveboxe*|*éteind la laveboxe*==say "J\'allume la télé." && wget -qO /dev/null "${liveboxtv_url}116${liveboxtv_url_mode}"
 *coupe le son de la laveboxe*==say "Je coupe le son de la télé!" && wget -qO /dev/null "${liveboxtv_url}113${liveboxtv_url_mode}"
 *remets le son de la laveboxe*==say "Je remet le son de la télé!" && wget -qO /dev/null "${liveboxtv_url}113${liveboxtv_url_mode}"
 *baisse le son de la laveboxe*==say "Je baisse le son de la télé!" && wget -qO /dev/null "${liveboxtv_url}114${liveboxtv_url_mode}"
